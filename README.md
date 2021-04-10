@@ -40,7 +40,7 @@
 	<li>
 		run command <b>php artisan db:seed --class=DatabaseSeeder</b>
     </li>
-    <li>Default username is admin@admin.com and password is 'password'</li>
+    <li>Default username is admin@admin.com and password is password</li>
 </ol>
 <h2>Our Setting is completed now</h2>
 <h5>Now run command php artisan serve</h5>
