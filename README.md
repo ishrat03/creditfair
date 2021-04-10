@@ -17,6 +17,25 @@
     </li>
     <li>
         run command <b>composer.phar install</b><br>
-        if composer is not installed then follow <a href="https://getcomposer.org/">Composer</a> to install Composer.
+        If composer is not installed then follow <a href="https://getcomposer.org/">Composer Installation Steps</a> to install Composer.
+    </li>
+    <li>
+        run command <b>npm install</b>
+    </li>
+    <li>
+        now rename .env.example to .env<br>
+        Set your database credentials in .env file
+    </li>
+    <li>
+        Create database if not created.
+    </li>
+    <li>
+		run command <b>php artisan migrate</b>
+    </li>
+	<li>
+		run command <b>php artisan db:seed --class=DatabaseSeeder</b>
     </li>
 </ol>
+<h2>Our Setting is completed now</h2>
+<h5>Now run command php artisan serve</h5>
+open your browser and open link <b>127.0.0.1:8000</b>
