@@ -20,7 +20,7 @@
             </li>
              <li>
                 <b>composer.phar install</b><br>
-                If composer is not installed then follow <a href="https://getcomposer.org/">Composer Installation Steps</a> to install Composer.
+                If composer is not installed then follow <a href="https://getcomposer.org/" target="_blank">Composer Installation Steps</a> to install Composer.
             </li>
             <li>
                 <b>npm install</b>
@@ -43,4 +43,4 @@
 </ol>
 <h2>Our Setting is completed now</h2>
 <h5>Now run command php artisan serve</h5>
-open your browser and open link <b>127.0.0.1:8000</b>
+open your browser and open link <b><a href="127.0.0.1:8000" target="_blank">127.0.0.1:8000</a></b>
